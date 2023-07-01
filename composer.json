@@ -2,6 +2,7 @@
     "name": "digitalocean-apps/sample-php",
     "description": "Sample PHP application for App Platform",
     "type": "project",
+     "license": "MIT",
     "require": {
         "alrik11es/cowsayphp": "^1.2"
     },
