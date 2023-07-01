@@ -1,0 +1,33 @@
+{
+    "name": "test-vendor/test-project",
+    "description": "Testing PHP Plugin",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harness",
+            "email": "admin@harness.io"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "vendor/package": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourNamespace\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vendor/package.git"
+        }
+    ]
+}
