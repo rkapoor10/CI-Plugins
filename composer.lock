@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1234567890abcdefg",
+    "packages": [
+        {
+            "name": "php",
+            "version": "7.4.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://php.net/get/php-7.4.3.zip",
+                "reference": "abcdefg"
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "ext-pdo": "*"
+            }
+        },
+        {
+            "name": "vendor/package",
+            "version": "1.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/vendor/package/archive/1.0.2.zip",
+                "reference": "abcdefg"
+            }
+        },
+        {
+            "name": "phpunit/phpunit",
+            "version": "9.5.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/phpunit/phpunit/archive/9.5.0.zip",
+                "reference": "abcdefg"
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-xml": "*",
+                "php": "^7.4"
+            }
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "phpunit/phpunit",
+            "version": "9.5.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/phpunit/phpunit/archive/9.5.0.zip",
+                "reference": "abcdefg"
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-xml": "*",
+                "php": "^7.4"
+            }
+        }
+    ],
+    "platform": {
+        "php": "7.4.3"
+    }
+}
